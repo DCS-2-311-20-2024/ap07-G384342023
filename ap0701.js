@@ -30,6 +30,7 @@ function init() {
         building.material.opacity = param.opacity;
       })
     });
+  gui.add(param, "background").name("背景")
   gui.add(param, "follow").name("追跡")
   gui.add(param, "birdsEye").name("俯瞰")
   gui.add(param, "course").name("コース")
